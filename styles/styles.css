@@ -1,0 +1,16 @@
+body {
+    background-image: url("/images/autoback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 50%;
+    background-color: black;
+}
+.title{
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Teko";
+}
