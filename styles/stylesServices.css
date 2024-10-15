@@ -8,35 +8,34 @@ body {
   background-position: top 60%;
   height: 80vh;
 }
-
+.menu {
+  float: right;
+  padding-right: 1%;
+  padding-top: 0.2%;
+  font-family: "Teko";
+  margin-bottom: 10px;
+  font-size: 120%;
+  color: rgba(0, 132, 255, 0.493);
+}
+.menu button {
+  background: none;
+  border: none;
+  color: rgba(0, 132, 255, 0.493);
+  cursor: pointer;
+}
 .title h1 {
   text-align: center;
   font-family: "Zilla Slab", serif;
   margin: 0px;
-  font-size: 250%;
+  font-size: 5vw;
+  padding-top: 5%;
   color: rgba(255, 0, 0, 0.541);
 }
-.slogan {
-  padding-right: 20px;
-}
-.navbar {
-  display: flex;
-  justify-content: space-evenly;
+.info {
+  text-align: center;
+  padding-top: 5vw;
+  font-size: 3vw;
   font-family: "Teko";
-  margin-bottom: 10px;
-  font-size: 120%;
-}
-.navbar button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: rgba(0, 132, 255, 0.493);
-}
-h2 {
-  text-align: right;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 182%;
-  color: rgba(255, 0, 0, 0.541);
 }
 footer {
   bottom: 0;
@@ -47,6 +46,7 @@ footer {
   height: 0%;
   gap: 200px;
 }
+
 .contactitem {
   display: inline-block;
   padding: 10px;

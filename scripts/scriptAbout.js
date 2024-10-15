@@ -1,8 +1,12 @@
-const insta = document.getElementById("insta")
-const snap = document.getElementById("snap")
-const whatsapp = document.getElementById("whatsapp")
-const x = document.getElementById("x")
+const home=document.getElementById("home");
+const insta = document.getElementById("insta");
+const snap = document.getElementById("snap");
+const whatsapp = document.getElementById("whatsapp");
+const x = document.getElementById("x");
 
+home.addEventListener("click", function(){
+    window.location.href="index.html";
+});
 insta.addEventListener("click",function(){
     window.location.href="https://www.instagram.com/isaz.143?igsh=MWVsdTF3YWE1emRqbg==";
 });
