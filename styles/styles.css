@@ -1,13 +1,14 @@
 body {
   background-color: black;
+
 }
 
 .splash {
     background-image: url("/images/autoback.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top 50%;
-    height: 70vh;
+    background-position: top 60%;
+    height: 80vh;
 }
 
 .title h1 {
@@ -21,7 +22,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   font-family: "Teko";
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-size: 120%;
   color: rgba(0, 132, 255, 0.493);
 }
@@ -37,10 +38,27 @@ footer{
     color: white;
     display: flex;
     align-items: flex-start;
+    height: 0%;
 }
 
 .contactitem {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
+    font-size: 170%;
 }
+.socials{
+  padding-left: 700px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
 
+}
+button{
+  background:none ;
+  border: none;
+  cursor: pointer;
+}
+.socials img{
+  width:120px;
+  height:120px;
+}
