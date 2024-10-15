@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+  }
+  .splash {
+    background-image: url("/images/autoback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 60%;
+    height: 80vh;
+  }
+  .menu {
+    float: right;
+    padding-right: 1%;
+    padding-top: 0.2%;
+    font-family: "Teko";
+    margin-bottom: 10px;
+    font-size: 120%;
+    color: rgba(0, 132, 255, 0.493);
+  }
+  .menu button {
+    background: none;
+    border: none;
+    color: rgba(0, 132, 255, 0.493);
+    cursor: pointer;
+    font-size: 0.7vw;
+  }
+  .title h1 {
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+    margin: 0px;
+    font-size: 5vw;
+    padding-top: 5%;
+    color: rgba(255, 0, 0, 0.541);
+  }
+  .info {
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 3vw;
+    font-family: "Teko";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  footer {
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 0%;
+    gap: 200px;
+  }
+  .contactitem {
+    display: inline-block;
+    padding: 10px;
+    font-size: 170%;
+  }
+  .socials {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .socials button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .socials img {
+    width: 120px;
+    height: 120px;
+  }
+  
