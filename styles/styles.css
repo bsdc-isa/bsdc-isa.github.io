@@ -147,4 +147,5 @@ footer {
 }
 html{
   scroll-behavior: smooth;
+  overflow:hidden;
 }
