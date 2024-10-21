@@ -1,7 +1,7 @@
-const insta = document.getElementById("insta")
-const snap = document.getElementById("snap")
-const whatsapp = document.getElementById("whatsapp")
-const x = document.getElementById("x")
+const insta = document.getElementById("insta");
+const snap = document.getElementById("snap");
+const whatsapp = document.getElementById("whatsapp");
+const x = document.getElementById("x");
 
 insta.addEventListener("click",function(){
     window.location.href="https://www.instagram.com/isaz.143?igsh=MWVsdTF3YWE1emRqbg==";

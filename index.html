@@ -15,22 +15,74 @@
       href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="splash">
+    <div class="splash" id="splash">
       <div class="navbar">
-        <div><h1>About Us</h1></div>
-        <div><h1>Services</h1></div>
-        <div><h1>Contact</h1></div>
+        <div>
+          <a href="#about"><h1>About Us</h1></a>
+        </div>
+        <div>
+          <a href="#services"><h1>Services</h1></a>
+        </div>
+        <div>
+          <a href="#contact"><h1>Contact</h1></a>
+        </div>
       </div>
       <div class="title"><h1>Zamir Auto</h1></div>
-      <div><h2>Turning Miles Into Smiles</h2></div>
+      <div class="slogan"><h2>Turning Miles Into Smiles</h2></div>
+    </div>
+    <div class="space"><button></button></div>
+    <div class="services" id="services">
+      <div class="menu">
+        <a href="#splash"><h1>Home</h1></a>
+      </div>
+      <div class="title">
+        <h1>Services</h1>
+      </div>
+      <div class="servicesInfo">
+        <p>
+          Book an appointment with us today to get you driving within minutes at
+          01283 690271
+        </p>
+      </div>
+    </div>
+    <div class="space"><button></button></div>
+    <div class="about" id="about">
+      <div class="menu">
+        <a href="#splash"><h1>Home</h1></a>
+      </div>
+      <div class="title">
+        <h1>About Us</h1>
+      </div>
+      <div class="aboutInfo">
+        <p>
+          We are a family run business started in 2022. We specialise in getting
+          you on the road with the car that satisfies your desires. As a
+          business owner it is vital for me to ensure every car sold is to your
+          satisfaction and perfect. Currently based in Burton and also offer
+          home delivery if required. Once again we aim to turn miles into
+          smiles.
+        </p>
+      </div>
+    </div>
+    <div class="space"><button></button></div>
+    <div class="contact" id="contact">
+      <div class="menu">
+        <a href="#splash"><h1>Home</h1></a>
+      </div>
+      <div class="title">
+        <h1>Contact Information</h1>
+      </div>
+      <div class="contactInfo">
+        <p>Landline: <br />01283 690271</p>
+        <p>Email: <br />enquiries@zamirauto.co.uk</p>
+        <p>Mobile: <br />07496 932296</p>
+      </div>
     </div>
     <footer>
       <div class="contactitem">
@@ -47,6 +99,6 @@
         <button id="x"><img src="/images/X.jpg" /></button>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="/scripts/script.js"></script>
   </body>
 </html>
