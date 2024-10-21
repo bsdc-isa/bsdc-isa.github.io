@@ -10,7 +10,7 @@ snap.addEventListener("click",function(){
     window.location.href="https://www.snapchat.com/add/isa.z143?share_id=GJL8gMIISUOJtviaaE73iw&locale=en_GB";
 });
 whatsapp.addEventListener("click", function(){
-    alert("07496 932296");
+    alert("Phone number - 01283 690271");
 });
 x.addEventListener("click",function(){
     window.location.href="https://x.com/zamirauto";
